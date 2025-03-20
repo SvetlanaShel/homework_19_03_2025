@@ -6,7 +6,7 @@ class Student55FS extends React.Component {
     render() {
         return(
             <>
-            <h1 style ={{ textAlign: "center", backgroundColor: "light gray", color: "blue" }}>Welcome to React!</h1>
+            <h1 style ={{ textAlign: "center", backgroundColor: "lightgray", color: "blue" }}>Welcome to React!</h1>
             <p className = "text-center">This is a class component</p>
             </>
         );
@@ -16,6 +16,7 @@ class Student55FS extends React.Component {
 //Отображаем компонент
 root.render(
     <>
+
     <Student55FS />
     <Student55FS />
     <Student55FS />
